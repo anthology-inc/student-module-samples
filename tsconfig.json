@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "noImplicitAny": false,
+      "noEmitOnError": true,
+      "removeComments": false,
+      "sourceMap": true,
+      "target": "es5",
+      "rootDir": ".",
+      "outFile": "sample/module.js",
+      "lib": [ "dom", "es5", "scripthost", "es2015.promise" ],
+      "typeRoots": [
+        "node_modules/@types",
+        "typings"
+      ],
+    }
+    ,
+    "include": [
+        "src/ts/**/*.module.ts",
+        "src/ts/**/*.ts"
+    ]
+  }

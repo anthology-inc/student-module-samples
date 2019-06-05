@@ -1,0 +1,32 @@
+{
+    "rules": {
+      "quotemark": [true, "single", "avoid-escape"],
+      "max-line-length": [true, 850],
+      "semicolon": [true, "always"],
+      "prefer-const": true,
+      "no-var-keyword": true,
+      "no-arg": true,
+      "no-bitwise": true,
+      "no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
+      "triple-equals": [true, "allow-null-check"],
+      "class-name": true,
+      "callable-types": true,
+      "one-line": [
+        false,
+        "check-open-brace",
+        "check-catch",
+        "check-else",
+        "check-whitespace"
+      ],
+      "prefer-template": false,
+      "whitespace": [
+        false,
+        "check-branch",
+        "check-decl",
+        "check-operator",
+        "check-separator",
+        "check-type"
+      ],
+      "arrow-return-shorthand": false
+    }
+  }
