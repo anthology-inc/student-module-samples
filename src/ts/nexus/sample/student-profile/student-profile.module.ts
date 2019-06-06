@@ -7,7 +7,7 @@ namespace Nexus.Sample.StudentProfile {
         .run(['TileService', 'nsaCache',
             (tileService: GlobalServices.ITileService, nsaCache: any) => {
                 nsaCache.getCache().then(() => {
-                    tileService.createTile('Sample', 'Sample Student Profile Screen', `students.list-samples`);
+                    tileService.createTile('Sample', 'Sample Student Profile Screen', 'show-student.sample');
                 }).catch(angular.noop);
             }]);
 }

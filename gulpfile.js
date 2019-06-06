@@ -62,7 +62,7 @@ const lessHint = () => {
 const copyTemplates = () => {
     return src('src/ts/**/*.html')
         .pipe(rename((path) => { path.dirname = path.dirname.replace('ts\\', '') }))
-        .pipe(dest('./dist/templates'));
+        .pipe(dest('./dist/sample/templates'));
 }
 
 const echoInstructions = (cb) => {

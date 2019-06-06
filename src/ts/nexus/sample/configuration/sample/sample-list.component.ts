@@ -1,7 +1,7 @@
 namespace Nexus.Sample.Configuration {
 
     const component: angular.IComponentOptions = {
-        template: `<h1>This is a sample view</h1>`,
+        templateUrl: 'dist/modules/sample/templates/nexus/sample/configuration/sample/sample-list.component.html',
         controller: 'SampleListComponentController'
     };
 
